@@ -30,6 +30,13 @@
     heading: bi('Crew details', 'بيانات الطاقم'),
     section: bi('Your details', 'بيانات الفرد'),
     another: bi('Register another person', 'تسجيل فرد آخر'),
+    brief: {
+      ...shared.brief,
+      body: bi(
+        'A cinematic launch film for the Red Palace, shot across the Palace over two days. The Palace is a restored heritage property, so production is non-invasive: please follow the location team\'s instructions on access, routes and handling at all times. Taking photos or videos is strictly prohibited, per higher directives.',
+        'فيلم سينمائي لإطلاق القصر الأحمر والتصوير داخل أرجاء القصر على مدى يومين. القصر مبنى تراثي مرمّم، فالعمل فيه بدون أي أثر: نرجو الالتزام بتعليمات فريق الموقع في الدخول والمسارات والتعامل مع المقتنيات، ويمنع التصوير منعًا تامًا وفق توجيهات عليا.',
+      ),
+    },
     formIntro: bi(
       'Please fill in your details and upload a clear photo or scan of your ID. We need it for site access permits.',
       'نحتاج منك تعبئة بياناتك ورفع صورة واضحة من هويتك، عشان تصاريح الدخول للموقع.',
@@ -82,8 +89,8 @@
     section: bi('Your details', 'بياناتك'),
     another: bi('Register another guest', 'تسجيل ضيف آخر'),
     formIntro: bi(
-      'So we can prepare a smooth experience from the moment you arrive, please fill in your access, reception, transport and hospitality details.',
-      'عشان نجهّز لك تجربة مرتبة من لحظة الوصول، نحتاج منك تعبئة المعلومات الخاصة بالدخول، الاستقبال، Transportation والضيافة.',
+      'Because your experience matters to us from the moment you arrive, please fill in your access, reception, transport and hospitality details.',
+      'لأن تجربتك تهمنا من لحظة الوصول، نحتاج منك تعبئة المعلومات الخاصة بالدخول، الاستقبال، والتنقل والضيافة.',
     ),
     fields: [
       {
